@@ -1,137 +1,108 @@
 body {
-background-color: rgb(90, 86, 86);
-color: rgb(0, 0, 0);
-font-family:'Courier New', Courier, monospace;
+  background-color: rgb(90, 86, 86);
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
 }
 
-
-
-
-
-
-
-.container0{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 2600px;
-    height: 150px;
-    background-color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: black; 
-    display: grid;
-        grid-template-columns: 100px 100px; 
-        grid-template-rows: 100px;
-        grid-column-gap: 5px;
-     
-}
-    
-
-
-.child0{
-    margin-top: 25px; 
-}
-.duck{
-
-width: 100px;
-height: 100px;   
-}
-.pagename{
-padding-top: 65px;
-width: 200px;
-font-size: 20px;
-font-weight: 900;
+.container0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2600px;
+  height: 150px;
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px;
+  grid-column-gap: 5px;
 }
 
-
-
-    .container1{
-position: absolute;
-background-color: gray;
-width: 900px;
-height: 1100px;
-font-family: 'Times New Roman', Times, serif;
-font-size: 20px;
-color: white;
-top: 150px;
-left: 50%;
-transform: translate(-50%);
-text-align: left;
-text-decoration: none;
-
+.child0 {
+  margin-top: 25px;
+}
+.duck {
+  width: 100px;
+  height: 100px;
+}
+.pagename {
+  padding-top: 65px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
-
-
-.child1{
-
-text-align: left;
-margin-left: 50px;
-margin-right: 50px;
+.container1 {
+  position: absolute;
+  background-color: gray;
+  width: 900px;
+  height: 1100px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: left;
+  text-decoration: none;
 }
 
-.child2{
-text-align: center;
-
+.child1 {
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-img{
-width: 500px;
-height: 300px;
-    
+.child2 {
+  text-align: center;
 }
 
-article{
-margin-left: 50px;
-margin-right: 50px;
+img {
+  width: 500px;
+  height: 300px;
 }
 
-.ctg{
-margin-left:50px;
-margin-right: 50px;
-color: white;
-font-size: 15px;    
+article {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.line{
-background-color:white;
-height: 5px; 
-width: 800px;
-
-   
+.ctg {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  font-size: 15px;
 }
 
-
-
-
-.akt{
-text-decoration: none;
-color: white;
-font-size: 15px;
+.line {
+  background-color: white;
+  height: 5px;
+  width: 800px;
 }
 
-.readmore::after{
-content: "CZYTAJ DALEJ";
-text-decoration: none;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: 700;
-text-align: center;
-color: white;    
-background-color: green;
-line-height: 45px;
-font-size: 15px;
-width: 140px;
-height: 45px;
-border-radius: 15px;
-position: absolute;
-left: 50%;
-transform: translate(-50%);
-bottom: 25px;
+.akt {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
 }
 
-
-
-
-
-
+.readmore::after {
+  content: "CZYTAJ DALEJ";
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background-color: green;
+  line-height: 45px;
+  font-size: 15px;
+  width: 140px;
+  height: 45px;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 25px;
+}
